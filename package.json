@@ -1,0 +1,28 @@
+{
+  "name": "clouddebugparser",
+  "version": "0.0.1",
+  "description": "A parser to put clouddebug into plain English for Particle devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Particle",
+    "Electron",
+    "Photon",
+    "Boron",
+    "Xenon",
+    "Argon",
+    "Mesh",
+    "P1",
+    "P0",
+    "Core",
+    "Spark"
+  ],
+  "author": "Matthew Stanley",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "path": "^0.12.7"
+  }
+}

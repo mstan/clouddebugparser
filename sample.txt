@@ -1,0 +1,172 @@
+    65.471 AT send      14 "AT+UPSDA=0,4\r\n"
+    65.842 AT read OK    6 "\r\nOK\r\n"
+
+[ Modem::detach ] = = = = = = = = = = = = = = =
+    65.842 AT send      12 "AT+CGATT=0\r\n"
+    69.223 AT read OK    6 "\r\nOK\r\n"
+
+[ Modem::detach ] = = = = = = = = = = = = = = =
+    69.223 AT send      12 "AT+CGATT=0\r\n"
+    69.224 AT read  +   13 "\r\n+CGREG: 0\r\n"
+    69.234 AT read  +   14 "\r\n+CIEV: 9,1\r\n"
+CIEV matched: 9,1
+    69.244 AT read OK    6 "\r\nOK\r\n"
+
+[ Modem::powerOff ] = = = = = = = = = = = = = =
+    69.244 AT send      12 "AT+CPWROFF\r\n"
+    72.105 AT read OK    6 "\r\nOK\r\n"
+
+[ Modem::powerOn ] = = = = = = = = = = = = = =
+    72.415 AT send       4 "AT\r\n"
+    73.735 AT send       4 "AT\r\n"
+    75.055 AT send       4 "AT\r\n"
+    76.375 AT send       4 "AT\r\n"
+    76.385 AT read UNK   3 "AT\r"
+    76.395 AT read OK    6 "\r\nOK\r\n"
+    76.605 AT send       7 "AT E0\r\n"
+    76.615 AT read UNK   6 "AT E0\r"
+    76.625 AT read OK    6 "\r\nOK\r\n"
+    76.625 AT send      11 "AT+CMEE=2\r\n"
+    76.635 AT read OK    6 "\r\nOK\r\n"
+    76.635 AT send      19 "AT+CMER=1,0,0,2,1\r\n"
+    76.645 AT read OK    6 "\r\nOK\r\n"
+    76.645 AT send      15 "AT+IPR=115200\r\n"
+    76.655 AT read OK    6 "\r\nOK\r\n"
+    76.755 AT send      10 "AT+CPIN?\r\n"
+    76.765 AT read  +   16 "\r\n+CPIN: READY\r\n"
+    76.775 AT read OK    6 "\r\nOK\r\n"
+0000076775 [system] INFO: Sim Ready
+0000076775 [system] INFO: Sim Ready
+0000076775 [system] INFO: ARM_WLAN_WD 1
+0000076775 [s
+[ Mode
+    76.776 AT send       9 "AT+CGSN\r\n"
+    76.796 AT read UNK  19 "\r\n352580082953501\r\n"
+    76.806 AT read OK    6 "\r\nOK\r\n"
+    76.806 AT send       9 "AT+CGMI\r\n"
+    76.816 AT read UNK  10 "\r\nu-blox\r\n"
+    76.826 AT read OK    6 "\r\nOK\r\n"
+    76.826 AT send       9 "AT+CGMM\r\n"
+    76.836 AT read UNK  13 "\r\nSARA-U260\r\n"
+    76.846 AT read OK    6 "\r\nOK\r\n"
+    76.846 AT send       9 "AT+CGMR\r\n"
+    76.856 AT read UNK   9 "\r\n23.20\r\n"
+    76.866 AT read OK    6 "\r\nOK\r\n"
+    76.866 AT send       9 "AT+CCID\r\n"
+    76.876 AT read  +   30 "\r\n+CCID: 12345678901234567890\r\n"
+    76.886 AT read OK    6 "\r\nOK\r\n"
+    76.886 AT send      11 "AT+UPSV=1\r\n"
+    76.896 AT read OK    6 "\r\nOK\r\n"
+    76.896 AT send      11 "AT+CMGF=1\r\n"
+    76.906 AT read OK    6 "\r\nOK\r\n"
+    76.906 AT send      13 "AT+CNMI=2,1\r\n"
+    76.916 AT read OK    6 "\r\nOK\r\n"
+    76.916 AT send       9 "AT+CIMI\r\n"
+    76.926 AT read UNK  19 "\r\n214074303090723\r\n"
+    76.936 AT read OK    6 "\r\nOK\r\n"
+
+[ Modem::register ] = = = = = = = = = = = = = =
+    76.936 AT send      10 "AT+CREG?\r\n"
+    76.947 AT read  +   14 "\r\n+CREG: 0,0\r\n"
+    76.957 AT read OK    6 "\r\nOK\r\n"
+    76.957 AT send      11 "AT+CGREG?\r\n"
+    76.967 AT read  +   15 "\r\n+CGREG: 0,0\r\n"
+    76.977 AT read OK    6 "\r\nOK\r\n"
+    76.977 AT send      12 "AT+CGREG=2\r\n"
+    76.987 AT read OK    6 "\r\nOK\r\n"
+    76.987 AT send      11 "AT+CREG=2\r\n"
+    76.997 AT read OK    6 "\r\nOK\r\n"
+    76.997 AT send      10 "AT+CREG?\r\n"
+    77.007 AT read  +   14 "\r\n+CREG: 2,0\r\n"
+    77.017 AT read OK    6 "\r\nOK\r\n"
+    77.017 AT send      11 "AT+CGREG?\r\n"
+    77.027 AT read  +   15 "\r\n+CGREG: 2,0\r\n"
+    77.037 AT read OK    6 "\r\nOK\r\n"
+    92.037 AT send      10 "AT+CREG?\r\n"
+    92.037 AT read  +   14 "\r\n+CIEV: 2,2\r\n"
+    92.047 AT read  +   30 "\r\n+CREG: 5,\"CF35\",\"1228C8\",2\r\n"
+    92.057 AT read  +   36 "\r\n+CGREG: 5,\"CF35\",\"1228C8\",2,\"01\"\r\n"
+    92.068 AT read  +   14 "\r\n+CIEV: 3,1\r\n"
+    92.078 AT read  +   14 "\r\n+CIEV: 7,1\r\n"
+    92.088 AT read  +   14 "\r\n+CIEV: 9,2\r\n"
+CIEV matched: 9,2
+    92.098 AT read  +   30 "\r\n+CREG: 5,\"CF35\",\"1228B7\",2\r\n"
+    92.108 AT read  +   36 "\r\n+CGREG: 5,\"CF35\",\"1228B7\",2,\"01\"\r\n"
+    92.119 AT read  +   14 "\r\n+CIEV: 2,1\r\n"
+    93.639 AT read  +   32 "\r\n+CREG: 2,5,\"CF35\",\"1228B7\",2\r\n"
+    93.649 AT read OK    6 "\r\nOK\r\n"
+    93.649 AT send      11 "AT+CGREG?\r\n"
+    93.659 AT read  +   38 "\r\n+CGREG: 2,5,\"CF35\",\"1228B7\",2,\"01\"\r\n"
+    93.670 AT read OK    6 "\r\nOK\r\n"
+    93.670 AT send      10 "AT+COPS?\r\n"
+    93.770 AT read  +   43 "\r\n+COPS: 0,0,\"CAN Rogers Wireless Inc.\",2\r\n"
+    93.781 AT read OK    6 "\r\nOK\r\n"
+    93.781 AT send       9 "AT+CNUM\r\n"
+    93.781 AT read  +   30 "\r\n+CREG: 5,\"CF35\",\"1228C8\",2\r\n"
+    93.792 AT read  +   36 "\r\n+CGREG: 5,\"CF35\",\"1228C8\",2,\"01\"\r\n"
+    93.813 AT read OK    6 "\r\nOK\r\n"
+    93.813 AT send       8 "AT+CSQ\r\n"
+    93.823 AT read  +   13 "\r\n+CSQ: 9,2\r\n"
+n"
+    93.844 AT send      14 "AT+UPSND=0,8\r\n"
+    93.854 AT read  +   17 "\r\n+UPSND: 0,8,0\r\n"
+    93.864 AT read OK    6 "\r\nOK\r\n"
+    93.864 AT send      23 "AT+UPSD=0,7,\"0.0.0.0\"\r\n"
+    93.874 AT read OK    6 "\r\nOK\r\n"
+    93.874 AT send      36 "AT+UPSD=0,1,\"spark.telefonica.com\"\r\n"
+    93.885 AT read OK    6 "\r\nOK\r\n"
+    93.885 AT send      15 "AT+UPSD=0,6,0\r\n"
+    93.895 AT read OK    6 "\r\nOK\r\n"
+    93.895 AT send      14 "AT+UPSDA=0,3\r\n"
+    95.965 AT read OK    6 "\r\nOK\r\n"
+    95.965 AT send      14 "AT+UPSND=0,0\r\n"
+    95.965 AT read  +   14 "\r\n+CIEV: 2,2\r\n"
+    95.976 AT read  +   31 "\r\n+UPSND: 0,0,\"10.40.252.128\"\r\n"
+    95.986 AT read OK    6 "\r\nOK\r\n"
+0000095986 [system] INFO: ARM_WLAN_WD 2
+0000095986 [system] INFO: ARM_WLAN_WD 2
+000000000095987 [system] INFO: Cloud: connecting
+0000095987 [system]0000095987 [s0000095988 [system] WARN: Read Server Address = type:255,default0000095988 [system] WARN: Cloud socket connection failed: -1
+000socketSocket(TCP)
+    95.989 AT send      12 "AT+USOCR=6\r\n"
+    96.000 AT read  +   13 "\r\n+USOCR: 0\r\n"
+    96.010 AT read OK    6 "\r\nOK\r\n"
+Socket 0: handle 0 was created
+0000096010 [system] TRACE: socketed testSocket=0
+00000socketConnect(0,po    96.011 AT send      25 "AT+USOCO=0,\"8.8.8.8\",53\r\n"
+    98.541 AT read OK    6 "\r\nOK\r\n"
+0000098541 [system] TRACE: socket_connect()=success
+0000098541 [system] TRACE: Close
+    98.541 AT send      12 "AT+USOCL=0\r\n"
+    98.812 AT read OK    6 "\r\nOK\r\n"
+socketFree(0)
+0000098812 [system] WARN: Internet available, Cloud not reachable!
+00000000098813 [system] INFO: 0000098814 [system] TRACE: sparkSocket Now =-1
+0000098814 [system] WARN: Read Server Address = type:255,defaulting to device.spa0000098815 [system] WARN: Cloud socket connecti0000098815 [system] WARN: Resetting WLAN due to 2 failed connect0000098816 [systemsocketSocket(TCP)
+    98.817 AT send      12 "AT+USOCR=6\r\n"
+    98.827 AT read  +   13 "\r\n+USOCR: 0\r\n"
+    98.837 AT read OK    6 "\r\nOK\r\n"
+Socket 0: handle 0 was created
+0000098837 [system] TRACE: socketed testSocket=0
+00000socketConnect(0,po    98.838 AT send      25 "AT+USOCO=0,\"8.8.8.8\",53\r\n"
+    99.118 AT read OK    6 "\r\nOK\r\n"
+0000099118 [system] TRACE: socket_connect()=success
+0000099118 [system] TRACE: Close
+  12 "AT+USOCL=0\r\n"
+    99.389 AT read OK    6 "\r\nOK\r\n"
+socketFree(0)
+0000099389 [system] WARN: Internet available, Cloud not reachable!
+00000000099390 [system] WARN: Resetting WLAN due to 
+[ Modem::disconnect ] = = = = = = = = = = = = =
+    99.391 AT send      14 "AT+UPSDA=0,4\r\n"
+    99.762 AT read OK    6 "\r\nOK\r\n"
+
+[ Modem::detach ] = = = = = = = = = = = = = = =
+    99.762 AT send      12 "AT+CGATT"
+   101.083 AT read OK    6 "\r\nOK\r\n"
+
+[ Modem::detach ] = = = = = = = = = = = = = = =
+   101.083 AT send      12 "AT+CGATT   101.084 AT read  +   13 "\rCGREG: 0\r\n"
+   101.094 AT read  +   14 "\r\n+CIEV: 9,1\r\n"
+CIEV matched: 9,1
+   101.104 AT read OK    6 "\r\nOK\r\n"

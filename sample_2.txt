@@ -1,0 +1,811 @@
+1247.669 AT send 10 "AT+CREG?\r\n"
+
+1249.469 AT read + 14 "\r\n+CREG: 2,2\r\n"
+
+1249.479 AT read OK 6 "\r\nOK\r\n"
+
+1249.479 AT send 11 "AT+CGREG?\r\n"
+
+1249.489 AT read + 15 "\r\n+CGREG: 2,2\r\n"
+
+1249.499 AT read OK 6 "\r\nOK\r\n"
+
+1264.499 AT send 10 "AT+CREG?\r\n"
+
+1264.499 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1264.509 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1264.519 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1264.529 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1264.539 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1264.549 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1264.559 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1264.569 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1264.619 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1264.629 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1264.639 AT read + 14 "\r\n+CREG: 2,0\r\n"
+
+1264.649 AT read OK 6 "\r\nOK\r\n"
+
+1264.649 AT send 11 "AT+CGREG?\r\n"
+
+1267.169 AT read + 15 "\r\n+CGREG: 2,0\r\n"
+
+1267.179 AT read OK 6 "\r\nOK\r\n"
+
+1282.179 AT send 10 "AT+CREG?\r\n"
+
+1282.179 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1282.189 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1282.199 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1282.209 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1282.219 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1282.229 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1282.239 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1282.249 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1282.259 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1282.269 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1282.459 AT read + 14 "\r\n+CREG: 2,2\r\n"
+
+1282.469 AT read OK 6 "\r\nOK\r\n"
+
+1282.469 AT send 11 "AT+CGREG?\r\n"
+
+1282.479 AT read + 15 "\r\n+CGREG: 2,2\r\n"
+
+1282.489 AT read OK 6 "\r\nOK\r\n"
+
+0001282492 [system] WARN: Resetting WLAN due to WLAN_WD_TO()
+
+0001282492 [system] WARN: Resetting WLAN due to WLAN_WD_TO()
+
+[ Modem::powerOff ] = = = = = = = = = = = = = =
+
+1282.492 AT send 12 "AT+CPWROFF\r\n"
+
+1282.643 AT read OK 6 "\r\nOK\r\n"
+
+[ Modem::powerOn ] = = = = = = = = = = = = = =
+
+1282.955 AT send 4 "AT\r\n"
+
+1284.275 AT send 4 "AT\r\n"
+
+1285.595 AT send 4 "AT\r\n"
+
+1286.915 AT send 4 "AT\r\n"
+
+1286.925 AT read UNK 3 "AT\r"
+
+1286.935 AT read OK 6 "\r\nOK\r\n"
+
+1287.145 AT send 7 "AT E0\r\n"
+
+1287.155 AT read UNK 6 "AT E0\r"
+
+1287.165 AT read OK 6 "\r\nOK\r\n"
+
+1287.165 AT send 11 "AT+CMEE=2\r\n"
+
+1287.175 AT read OK 6 "\r\nOK\r\n"
+
+1287.175 AT send 19 "AT+CMER=1,0,0,2,1\r\n"
+
+1287.185 AT read OK 6 "\r\nOK\r\n"
+
+1287.185 AT send 15 "AT+IPR=115200\r\n"
+
+1287.195 AT read OK 6 "\r\nOK\r\n"
+
+1287.295 AT send 10 "AT+CPIN?\r\n"
+
+1287.305 AT read + 16 "\r\n+CPIN: READY\r\n"
+
+1287.315 AT read OK 6 "\r\nOK\r\n"
+
+0001287316 [system] INFO: Sim Ready
+
+0001287316 [system] INFO: Sim Ready
+
+0001287317 [system] INFO: ARM_WLAN_WD 1
+
+0001287317 [system] INFO: ARM_WLAN_WD 1
+
+[ Modem::init ] = = = = = = = = = = = = = = =
+
+1287.317 AT send 9 "AT+CGSN\r\n"
+
+1287.337 AT read UNK 19 "\r\n352580082886701\r\n"
+
+1287.347 AT read OK 6 "\r\nOK\r\n"
+
+1287.347 AT send 9 "AT+CGMI\r\n"
+
+1287.357 AT read UNK 10 "\r\nu-blox\r\n"
+
+1287.367 AT read OK 6 "\r\nOK\r\n"
+
+1287.367 AT send 9 "AT+CGMM\r\n"
+
+1287.377 AT read UNK 13 "\r\nSARA-U260\r\n"
+
+1287.387 AT read OK 6 "\r\nOK\r\n"
+
+1287.387 AT send 9 "AT+CGMR\r\n"
+
+1287.397 AT read UNK 9 "\r\n23.20\r\n"
+
+1287.407 AT read OK 6 "\r\nOK\r\n"
+
+1287.407 AT send 9 "AT+CCID\r\n"
+
+1287.417 AT read + 31 "\r\n+CCID: 12345678901234567890\r\n"
+
+1287.427 AT read OK 6 "\r\nOK\r\n"
+
+1287.427 AT send 11 "AT+UPSV=1\r\n"
+
+1287.437 AT read OK 6 "\r\nOK\r\n"
+
+1287.437 AT send 11 "AT+CMGF=1\r\n"
+
+1287.447 AT read OK 6 "\r\nOK\r\n"
+
+1287.447 AT send 13 "AT+CNMI=2,1\r\n"
+
+1287.457 AT read OK 6 "\r\nOK\r\n"
+
+1287.457 AT send 9 "AT+CIMI\r\n"
+
+1287.467 AT read UNK 19 "\r\n730013011034938\r\n"
+
+1287.477 AT read OK 6 "\r\nOK\r\n"
+
+[ Modem::register ] = = = = = = = = = = = = = =
+
+1287.477 AT send 10 "AT+CREG?\r\n"
+
+1287.488 AT read + 14 "\r\n+CREG: 0,0\r\n"
+
+1287.498 AT read OK 6 "\r\nOK\r\n"
+
+1287.498 AT send 11 "AT+CGREG?\r\n"
+
+1287.508 AT read + 15 "\r\n+CGREG: 0,0\r\n"
+
+1287.518 AT read OK 6 "\r\nOK\r\n"
+
+1287.518 AT send 12 "AT+CGREG=2\r\n"
+
+1287.528 AT read OK 6 "\r\nOK\r\n"
+
+1287.528 AT send 11 "AT+CREG=2\r\n"
+
+1287.538 AT read OK 6 "\r\nOK\r\n"
+
+1287.538 AT send 10 "AT+CREG?\r\n"
+
+1287.548 AT read + 14 "\r\n+CREG: 2,0\r\n"
+
+1287.558 AT read OK 6 "\r\nOK\r\n"
+
+1287.558 AT send 11 "AT+CGREG?\r\n"
+
+1287.568 AT read + 15 "\r\n+CGREG: 2,0\r\n"
+
+1287.578 AT read OK 6 "\r\nOK\r\n"
+
+1302.578 AT send 10 "AT+CREG?\r\n"
+
+1304.378 AT read + 14 "\r\n+CREG: 2,0\r\n"
+
+1304.388 AT read OK 6 "\r\nOK\r\n"
+
+1304.388 AT send 11 "AT+CGREG?\r\n"
+
+1304.398 AT read + 15 "\r\n+CGREG: 2,0\r\n"
+
+1304.408 AT read OK 6 "\r\nOK\r\n"
+
+1319.408 AT send 10 "AT+CREG?\r\n"
+
+1319.408 AT read + 14 "\r\n+CIEV: 3,0\r\n"
+
+1319.418 AT read + 14 "\r\n+CIEV: 7,0\r\n"
+
+1319.428 AT read + 14 "\r\n+CIEV: 9,0\r\n"
+
+CIEV matched: 9,0
+
+1319.438 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1319.448 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1320.048 AT read + 14 "\r\n+CREG: 2,2\r\n"
+
+1320.058 AT read OK 6 "\r\nOK\r\n"
+
+1320.058 AT send 11 "AT+CGREG?\r\n"
+
+1320.068 AT read + 15 "\r\n+CGREG: 2,2\r\n"
+
+1320.078 AT read OK 6 "\r\nOK\r\n"
+
+1335.078 AT send 10 "AT+CREG?\r\n"
+
+1335.078 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1335.088 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1337.398 AT read + 14 "\r\n+CREG: 2,0\r\n"
+
+1337.408 AT read OK 6 "\r\nOK\r\n"
+
+1337.408 AT send 11 "AT+CGREG?\r\n"
+
+1337.408 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1337.419 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1337.429 AT read + 15 "\r\n+CGREG: 2,2\r\n"
+
+1337.439 AT read OK 6 "\r\nOK\r\n"
+
+1352.439 AT send 10 "AT+CREG?\r\n"
+
+1353.759 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1353.769 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1353.779 AT read + 14 "\r\n+CREG: 2,0\r\n"
+
+1353.789 AT read OK 6 "\r\nOK\r\n"
+
+1353.789 AT send 11 "AT+CGREG?\r\n"
+
+1356.309 AT read + 15 "\r\n+CGREG: 2,0\r\n"
+
+1356.319 AT read OK 6 "\r\nOK\r\n"
+
+1371.319 AT send 10 "AT+CREG?\r\n"
+
+1371.319 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1371.329 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1371.339 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1371.349 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1371.359 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1371.369 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1373.059 AT read + 14 "\r\n+CREG: 2,2\r\n"
+
+1373.069 AT read OK 6 "\r\nOK\r\n"
+
+1373.069 AT send 11 "AT+CGREG?\r\n"
+
+1373.079 AT read + 15 "\r\n+CGREG: 2,2\r\n"
+
+1373.089 AT read OK 6 "\r\nOK\r\n"
+
+1388.089 AT send 10 "AT+CREG?\r\n"
+
+1389.889 AT read + 14 "\r\n+CREG: 2,2\r\n"
+
+1389.899 AT read OK 6 "\r\nOK\r\n"
+
+1389.899 AT send 11 "AT+CGREG?\r\n"
+
+1389.909 AT read + 15 "\r\n+CGREG: 2,2\r\n"
+
+1389.919 AT read OK 6 "\r\nOK\r\n"
+
+1404.919 AT send 10 "AT+CREG?\r\n"
+
+1406.719 AT read + 14 "\r\n+CREG: 2,2\r\n"
+
+1406.729 AT read OK 6 "\r\nOK\r\n"
+
+1406.729 AT send 11 "AT+CGREG?\r\n"
+
+1406.739 AT read + 15 "\r\n+CGREG: 2,2\r\n"
+
+1406.749 AT read OK 6 "\r\nOK\r\n"
+
+1421.749 AT send 10 "AT+CREG?\r\n"
+
+1421.749 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1421.759 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1421.769 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1421.779 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1421.789 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1421.799 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1421.809 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1421.819 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1421.829 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1421.839 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1423.989 AT read + 14 "\r\n+CREG: 2,0\r\n"
+
+1423.999 AT read OK 6 "\r\nOK\r\n"
+
+1423.999 AT send 11 "AT+CGREG?\r\n"
+
+1423.999 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1424.010 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1424.020 AT read + 15 "\r\n+CGREG: 2,2\r\n"
+
+1424.030 AT read OK 6 "\r\nOK\r\n"
+
+1439.030 AT send 10 "AT+CREG?\r\n"
+
+1440.230 AT read + 14 "\r\n+CREG: 2,2\r\n"
+
+1440.240 AT read OK 6 "\r\nOK\r\n"
+
+1440.240 AT send 11 "AT+CGREG?\r\n"
+
+1440.250 AT read + 15 "\r\n+CGREG: 2,2\r\n"
+
+1440.260 AT read OK 6 "\r\nOK\r\n"
+
+1455.260 AT send 10 "AT+CREG?\r\n"
+
+1457.060 AT read + 14 "\r\n+CREG: 2,2\r\n"
+
+1457.070 AT read OK 6 "\r\nOK\r\n"
+
+1457.070 AT send 11 "AT+CGREG?\r\n"
+
+1457.080 AT read + 15 "\r\n+CGREG: 2,2\r\n"
+
+1457.090 AT read OK 6 "\r\nOK\r\n"
+
+1472.090 AT send 10 "AT+CREG?\r\n"
+
+1472.090 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1472.100 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1472.330 AT read + 14 "\r\n+CREG: 2,0\r\n"
+
+1472.340 AT read OK 6 "\r\nOK\r\n"
+
+1472.340 AT send 11 "AT+CGREG?\r\n"
+
+1472.350 AT read + 15 "\r\n+CGREG: 2,0\r\n"
+
+1472.360 AT read OK 6 "\r\nOK\r\n"
+
+1487.360 AT send 10 "AT+CREG?\r\n"
+
+1487.360 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1487.370 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1487.380 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1487.390 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1487.400 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1487.410 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1487.420 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1487.430 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1487.440 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1487.450 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1487.460 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1487.470 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1487.640 AT read + 14 "\r\n+CREG: 2,0\r\n"
+
+1487.650 AT read OK 6 "\r\nOK\r\n"
+
+1487.650 AT send 11 "AT+CGREG?\r\n"
+
+1487.660 AT read + 15 "\r\n+CGREG: 2,0\r\n"
+
+1487.670 AT read OK 6 "\r\nOK\r\n"
+
+1502.670 AT send 10 "AT+CREG?\r\n"
+
+1502.670 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1502.680 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1504.480 AT read + 14 "\r\n+CREG: 2,2\r\n"
+
+1504.490 AT read OK 6 "\r\nOK\r\n"
+
+1504.490 AT send 11 "AT+CGREG?\r\n"
+
+1504.500 AT read + 15 "\r\n+CGREG: 2,2\r\n"
+
+1504.510 AT read OK 6 "\r\nOK\r\n"
+
+1519.510 AT send 10 "AT+CREG?\r\n"
+
+1519.510 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1519.520 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1519.530 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1519.540 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1519.550 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1519.560 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1519.570 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1519.580 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1519.590 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1519.600 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1519.760 AT read + 14 "\r\n+CREG: 2,0\r\n"
+
+1519.770 AT read OK 6 "\r\nOK\r\n"
+
+1519.770 AT send 11 "AT+CGREG?\r\n"
+
+1519.780 AT read + 15 "\r\n+CGREG: 2,0\r\n"
+
+1519.790 AT read OK 6 "\r\nOK\r\n"
+
+1534.790 AT send 10 "AT+CREG?\r\n"
+
+1534.790 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1534.800 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1534.810 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1534.820 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1534.830 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1534.840 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1534.850 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1534.860 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1534.870 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1534.880 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1537.220 AT read + 14 "\r\n+CREG: 2,2\r\n"
+
+1537.230 AT read OK 6 "\r\nOK\r\n"
+
+1537.230 AT send 11 "AT+CGREG?\r\n"
+
+1537.240 AT read + 15 "\r\n+CGREG: 2,2\r\n"
+
+1537.250 AT read OK 6 "\r\nOK\r\n"
+
+1552.250 AT send 10 "AT+CREG?\r\n"
+
+1554.020 AT read + 14 "\r\n+CREG: 2,2\r\n"
+
+1554.030 AT read OK 6 "\r\nOK\r\n"
+
+1554.030 AT send 11 "AT+CGREG?\r\n"
+
+1554.040 AT read + 15 "\r\n+CGREG: 2,2\r\n"
+
+1554.050 AT read OK 6 "\r\nOK\r\n"
+
+1569.050 AT send 10 "AT+CREG?\r\n"
+
+1569.050 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1569.060 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1569.070 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1569.080 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1569.090 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1569.100 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1569.110 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1569.120 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1569.130 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1569.140 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1569.870 AT read + 14 "\r\n+CREG: 2,0\r\n"
+
+1569.880 AT read OK 6 "\r\nOK\r\n"
+
+1569.880 AT send 11 "AT+CGREG?\r\n"
+
+1569.890 AT read + 15 "\r\n+CGREG: 2,0\r\n"
+
+1569.900 AT read OK 6 "\r\nOK\r\n"
+
+1584.900 AT send 10 "AT+CREG?\r\n"
+
+1584.900 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1584.910 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1584.920 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1584.930 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1584.940 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1584.950 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1584.960 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1584.970 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1584.980 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1584.990 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1585.000 AT read + 12 "\r\n+CREG: 0\r\n"
+
+1585.010 AT read + 13 "\r\n+CGREG: 0\r\n"
+
+1585.020 AT read + 14 "\r\n+CREG: 2,0\r\n"
+
+1585.030 AT read OK 6 "\r\nOK\r\n"
+
+1585.030 AT send 11 "AT+CGREG?\r\n"
+
+1585.040 AT read + 15 "\r\n+CGREG: 2,0\r\n"
+
+1585.050 AT read OK 6 "\r\nOK\r\n"
+
+1600.050 AT send 10 "AT+CREG?\r\n"
+
+1600.050 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1600.060 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1601.850 AT read + 14 "\r\n+CREG: 2,2\r\n"
+
+1601.860 AT read OK 6 "\r\nOK\r\n"
+
+1601.860 AT send 11 "AT+CGREG?\r\n"
+
+1601.870 AT read + 15 "\r\n+CGREG: 2,2\r\n"
+
+1601.880 AT read OK 6 "\r\nOK\r\n"
+
+0001601883 [system] WARN: Resetting WLAN due to WLAN_WD_TO()
+
+0001601883 [system] WARN: Resetting WLAN due to WLAN_WD_TO()
+
+[ Modem::powerOff ] = = = = = = = = = = = = = =
+
+1601.883 AT send 12 "AT+CPWROFF\r\n"
+
+1602.044 AT read OK 6 "\r\nOK\r\n"
+
+[ Modem::powerOn ] = = = = = = = = = = = = = =
+
+1602.356 AT send 4 "AT\r\n"
+
+1603.676 AT send 4 "AT\r\n"
+
+1604.996 AT send 4 "AT\r\n"
+
+1606.316 AT send 4 "AT\r\n"
+
+1606.326 AT read UNK 3 "AT\r"
+
+1606.336 AT read OK 6 "\r\nOK\r\n"
+
+1606.546 AT send 7 "AT E0\r\n"
+
+1606.556 AT read UNK 6 "AT E0\r"
+
+1606.566 AT read OK 6 "\r\nOK\r\n"
+
+1606.566 AT send 11 "AT+CMEE=2\r\n"
+
+1606.576 AT read OK 6 "\r\nOK\r\n"
+
+1606.576 AT send 19 "AT+CMER=1,0,0,2,1\r\n"
+
+1606.586 AT read OK 6 "\r\nOK\r\n"
+
+1606.586 AT send 15 "AT+IPR=115200\r\n"
+
+1606.596 AT read OK 6 "\r\nOK\r\n"
+
+1606.696 AT send 10 "AT+CPIN?\r\n"
+
+1606.706 AT read + 16 "\r\n+CPIN: READY\r\n"
+
+1606.716 AT read OK 6 "\r\nOK\r\n"
+
+0001606717 [system] INFO: Sim Ready
+
+0001606717 [system] INFO: Sim Ready
+
+0001606718 [system] INFO: ARM_WLAN_WD 1
+
+0001606718 [system] INFO: ARM_WLAN_WD 1
+
+[ Modem::init ] = = = = = = = = = = = = = = =
+
+1606.717 AT send 9 "AT+CGSN\r\n"
+
+1606.738 AT read UNK 19 "\r\n352580082886701\r\n"
+
+1606.748 AT read OK 6 "\r\nOK\r\n"
+
+1606.748 AT send 9 "AT+CGMI\r\n"
+
+1606.758 AT read UNK 10 "\r\nu-blox\r\n"
+
+1606.768 AT read OK 6 "\r\nOK\r\n"
+
+1606.768 AT send 9 "AT+CGMM\r\n"
+
+1606.778 AT read UNK 13 "\r\nSARA-U260\r\n"
+
+1606.788 AT read OK 6 "\r\nOK\r\n"
+
+1606.788 AT send 9 "AT+CGMR\r\n"
+
+1606.798 AT read UNK 9 "\r\n23.20\r\n"
+
+1606.808 AT read OK 6 "\r\nOK\r\n"
+
+1606.808 AT send 9 "AT+CCID\r\n"
+
+1606.818 AT read + 31 "\r\n+CCID: 12345678901234567890\r\n"
+
+1606.828 AT read OK 6 "\r\nOK\r\n"
+
+1606.828 AT send 11 "AT+UPSV=1\r\n"
+
+1606.838 AT read OK 6 "\r\nOK\r\n"
+
+1606.838 AT send 11 "AT+CMGF=1\r\n"
+
+1606.848 AT read OK 6 "\r\nOK\r\n"
+
+1606.848 AT send 13 "AT+CNMI=2,1\r\n"
+
+1606.858 AT read OK 6 "\r\nOK\r\n"
+
+1606.858 AT send 9 "AT+CIMI\r\n"
+
+1606.868 AT read UNK 19 "\r\n730013011034938\r\n"
+
+1606.878 AT read OK 6 "\r\nOK\r\n"
+
+[ Modem::register ] = = = = = = = = = = = = = =
+
+1606.878 AT send 10 "AT+CREG?\r\n"
+
+1606.889 AT read + 14 "\r\n+CREG: 0,0\r\n"
+
+1606.899 AT read OK 6 "\r\nOK\r\n"
+
+1606.899 AT send 11 "AT+CGREG?\r\n"
+
+1606.909 AT read + 15 "\r\n+CGREG: 0,0\r\n"
+
+1606.919 AT read OK 6 "\r\nOK\r\n"
+
+1606.919 AT send 12 "AT+CGREG=2\r\n"
+
+1606.929 AT read OK 6 "\r\nOK\r\n"
+
+1606.929 AT send 11 "AT+CREG=2\r\n"
+
+1606.939 AT read OK 6 "\r\nOK\r\n"
+
+1606.939 AT send 10 "AT+CREG?\r\n"
+
+1606.949 AT read + 14 "\r\n+CREG: 2,0\r\n"
+
+1606.959 AT read OK 6 "\r\nOK\r\n"
+
+1606.959 AT send 11 "AT+CGREG?\r\n"
+
+1606.969 AT read + 15 "\r\n+CGREG: 2,0\r\n"
+
+1606.979 AT read OK 6 "\r\nOK\r\n"
+
+1621.979 AT send 10 "AT+CREG?\r\n"
+
+1623.779 AT read + 14 "\r\n+CREG: 2,0\r\n"
+
+1623.789 AT read OK 6 "\r\nOK\r\n"
+
+1623.789 AT send 11 "AT+CGREG?\r\n"
+
+1623.799 AT read + 15 "\r\n+CGREG: 2,0\r\n"
+
+1623.809 AT read OK 6 "\r\nOK\r\n"
+
+1638.809 AT send 10 "AT+CREG?\r\n"
+
+1638.809 AT read + 14 "\r\n+CIEV: 3,0\r\n"
+
+1638.819 AT read + 14 "\r\n+CIEV: 7,0\r\n"
+
+1638.829 AT read + 14 "\r\n+CIEV: 9,0\r\n"
+
+CIEV matched: 9,0
+
+1640.229 AT read + 14 "\r\n+CREG: 2,0\r\n"
+
+1640.239 AT read OK 6 "\r\nOK\r\n"
+
+1640.239 AT send 11 "AT+CGREG?\r\n"
+
+1640.249 AT read + 15 "\r\n+CGREG: 2,0\r\n"
+
+1640.259 AT read OK 6 "\r\nOK\r\n"
+
+1655.259 AT send 10 "AT+CREG?\r\n"
+
+1655.259 AT read + 12 "\r\n+CREG: 2\r\n"
+
+1655.269 AT read + 13 "\r\n+CGREG: 2\r\n"
+
+1657.059 AT read + 14 "\r\n+CREG: 2,2\r\n"
+
+1657.069 AT read OK 6 "\r\nOK\r\n"
+
+1657.069 AT send 11 "AT+CGREG?\r\n"
+
+1657.079 AT read + 15 "\r\n+CGREG: 2,2\r\n"
+
+1657.089 AT read OK 6 "\r\nOK\r\n"

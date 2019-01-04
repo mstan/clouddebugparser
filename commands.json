@@ -1,0 +1,98 @@
+{
+    "CCID": {
+        "description": "Returns SIM card ICCID"
+    },
+    "CGATT": {
+        "description": "Register (attach) the MT to, or deregister (detach) the MT from the GPRS service."
+    },
+    "CGMI": {
+        "description": "Text string identifying the manufacturer."
+    },
+    "CGMM": {
+        "description": "Model of the u-blox device"
+    },
+    "CGMR": {
+        "description": "Return the firmware version of the module"
+    },
+    "CGSN": {
+        "description": "Return product IMEI serial number"
+    },
+    "CGREG?": {
+        "description": "Read the GPRS network registration information."
+    },
+    "CGREG": {
+        "description": "Configure the GPRS network registration information."
+    },
+    "CIMI": {
+        "description": "Request the IMSI (International Mobile Subscriber Identity)."
+    },
+    "CREG?": {
+        "description": "Read network registration information"
+    },
+    "CREG": {
+        "description": "Configure network registration information"
+    },
+    "COPS?": {
+        "description": "Read set carrier information"
+    },
+    "COPS": {
+        "description": "Force and attempt to use a particular carrier"
+    },
+    "CMEE": {
+        "description": "Configure the formatting of the result code +CME ERROR: <err> as an indication of an error relating to the functionality of the MT."
+    },
+    "CMER": {
+        "description": "Configures sending of URCs from MT to DTE for indications."
+    },
+    "CMGF": {
+        "description": "Indicates to the MT which input and output format of messages shall be used."
+    },
+    "CNUM": {
+        "description": "Return the MSISDNs related to this subscriber."
+    },
+    "CNMI": {
+        "description": "Select the procedure to indicate the reception of a new SMS in case of the MT is active"
+    },
+    "CPIN?": {
+        "description": "Reads the PIN."
+    },
+    "CPIN": {
+        "description": "Enter the PIN."
+    },
+    "CPWROFF": {
+        "description": "Shut down the module"
+    },
+    "CSQ": {
+        "description": "Returns the radio signal strength <signal_power> and <qual> from the MT."
+    },
+    "E0": {
+        "description": "Disables echoing of commands"
+    },
+    "E1": {
+        "description": "Enables echoing of commands"
+    },
+    "IPR": {
+        "description": "Specify the data rate the DCE accepts commands on the UART interface."
+    },
+    "UPSD": {
+        "description": "Set or read all the parameters in a specific packet switched data (PSD) profile"
+    },
+    "UPSDA": {
+        "description": "Performs the requested action for the specified PSD profile."
+    },
+    "UPSND": {
+        "description": "Return the current (dynamic) network-assigned or network-negotiated value of the specified parameter forthe active PDP context associated with the specified PSD profile."
+    },
+    "UPSV": {
+        "description": "Set the UART power saving configuration"
+    },
+    "USOCO": {
+        "description": "Establish a peer-to-peer connection of the socket to the specified remote host on the given remote port"
+    },
+    "USOCL": {
+        "description": "Closes the specified socket, like the BSD close routine."
+    },
+    "USOCR": {
+        "description": "Creates a socket and associates it with the specified protocol (TCP or UDP), returns a number identifying thesocket."
+    }
+}
